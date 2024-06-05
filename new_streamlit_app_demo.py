@@ -76,7 +76,7 @@ def page_1():
             step=0.00001,
         )
         plantations = st.number_input(
-            "How many plantations are in your farm?",
+            "How many wells are in your farm?",
             min_value=0,
             max_value=100,
             value=random_number,
